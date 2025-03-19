@@ -1,0 +1,15 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  dark: assets/logos/etrolley_splash_white_logo-removebg-preview.png
+  image_dark: assets/logos/etrolley_splash_black_logo-removebg-preview.png
+
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    dark: assets/logos/etrolley_splash_white_logo-removebg-preview.png
+    image_dark: assets/logos/etrolley_splash_black_logo-removebg-preview.png
+
+  web: false
+

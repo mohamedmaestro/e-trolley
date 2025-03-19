@@ -1,0 +1,61 @@
+name: myapp
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.5
+
+
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+
+assets:
+     - assets/Fonts/
+     - assets/icons/brands/
+     - assets/images/
+
+Fonts:
+     - family: Poppins
+       fonts:
+         - asset: assets/Fonts/Poppins-Light.ttf
+           weight: 300
+         - asset: assets/Fonts/Poppins-Regular.ttf
+           weight: 400
+         - asset: assets/Fonts/Poppins-Italic.ttf
+           style: italic
+         - asset: assets/Fonts/Poppins-Medium.ttf
+           weight: 500
+         - asset: assets/Fonts/Poppins-MediumItalic.ttf
+           weight: 500
+           style: italic
+         - asset: assets/Fonts/Poppins-SemiBold.ttf
+           weight: 600
+         - asset: assets/Fonts/Poppins-Bold.ttf
+           weight: 800
